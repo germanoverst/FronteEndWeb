@@ -1,0 +1,75 @@
+h1{
+    position: fixed;
+	top: 0px;
+	/* background-color: #CCCCCC; */
+	height:60px;
+	width: 100%;
+}
+img {
+margin-top: 80px;
+    border-radius: 20%;
+    box-shadow: 10px 65px 59px 5px rgba(0, 0, 0, 0.30);
+    margin-right: 0%;
+
+}
+.contenedor {
+    display:inline-flex;
+}
+.destacado {
+    background-color: lightgray;
+    border-top: 10px double #b0a7a6;
+    border-bottom: 10px double #332f2f;
+    box-shadow: 10px -20px 161px 15px rgba(0, 0, 0, 0.55);
+    margin-top: auto;
+    margin-left: 600px;
+    margin-right: 12%;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    bottom: 300px;
+    
+
+
+}
+
+.destacadoB {
+    background-color: rgba(2, 1, 0, 0.114);
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+h3 {
+    color: rgb(8, 7, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: left;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+    letter-spacing: 3.4px;
+    word-spacing: -5px;
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: small-caps;
+}
