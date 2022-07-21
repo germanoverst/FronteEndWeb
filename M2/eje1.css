@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+}
+.contenedor{
+    display: flex;
+}
+.cuadrado1{
+background-color: brown;
+cursor: pointer;
+width: 100px;
+height: 100px;
+}
+
+.cuadrado2{
+    background-color: aquamarine;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.cuadrado3{
+    background-color: blue;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
