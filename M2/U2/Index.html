@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo de bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <header>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <p> <strong>Lunes a viernes</strong> </p>
+                </div>
+                <div class="col order-1">
+                    <p> <strong>8.30 hs a 12.00 hs y 16.30 hs a 21.00 hs</strong> </p>
+                </div>
+                <div class="col order-1">
+                   <p> <strong>Urgencias: 2954-244567</strong></p> 
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <br>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid shadow-sm p-3 mb-5 bg-body rounded">
+            <img src="Copia de img4.png"  alt="logo">
+            <a class="navbar-brand" href="#">Cerrajería "El Ruso"</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <p><strong>Inicio</strong></p> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><p><strong>Servicios</strong></p></a>
+                    </li>
+                    <li class="nav-item">
+                      <p><strong><a class="nav-link" href="#">Presupuesto</a></strong></p>  
+                    </li>
+                    <li class="nav-item">
+                      <p><strong><a class="nav-link" href="#">Contacto</a></strong></p>  
+                    </li>
+                    <li class="nav-item">
+                        <form action="">
+                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                placeholder="Busqueda...">
+                            <datalist id="datalistOptions">
+                                <option value="Presupuesto">
+                                <option value="Doble paleta">
+                                <option value="Llave multipunto">
+                                <option value="Paleta simple">
+                                <option value="Urgencia">
+                            </datalist>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <section>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Doble paleta y Yale</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$400<small class="text-muted fw-light">/un.</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>2 x $760</li>
+                            <li>3 x $1100</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Multipunto</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$1000<small class="text-muted fw-light">/un.</small>
+                        </h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>2 x $1800</li>
+                            <li>3 x $3600</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="carouselExampleInterval" class="carousel slide container-sm" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="img1.jpg" class="d-block w-50" alt="llave">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img2.jpg" class="d-block w-5" alt="llave">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img3.jpg" class="d-block w-15" alt="llave">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Servicios</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Presupuesto</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
+
+        </ul>
+        <p class="text-center text-muted">© 2022 Santa Rosa, La Pampa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
